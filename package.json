@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Gionaldo Hartono's portfolio website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghartono/portfolio.git"
+  },
+  "author": "ghartono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghartono/portfolio/issues"
+  },
+  "homepage": "https://github.com/ghartono/portfolio#readme"
+}

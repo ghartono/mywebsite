@@ -1,0 +1,9 @@
+
+.font-serif{
+	font-family: 'Spectral SC', serif;
+}
+.font-sans{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Spectral+SC');
