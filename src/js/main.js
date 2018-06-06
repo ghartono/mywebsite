@@ -1,8 +1,3 @@
-
-window.onload = function() {
-    alert('Loaded');
-}
-
 document.addEventListener("DOMContentLoaded", (e) => {
   var pathname = window.location.pathname
   var template = pathname.substr(1)
