@@ -1,4 +1,7 @@
 
+window.onload = function() {
+    alert('Loaded');
+}
 
 document.addEventListener("DOMContentLoaded", (e) => {
   var pathname = window.location.pathname
@@ -12,9 +15,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
   var temp = '[data-template='+template+'-page]'  
   if (!findNode(temp))
-    document.querySelector(id).innerHTML = document.querySelector('[data-template=error404-page]').innerHTML
+    document.querySelector(id).innerHTML = document.querySelector('[data-template=error404-page]').textContent
   else
-    document.querySelector(id).innerHTML = document.querySelector(temp).innerHTML
+    document.querySelector(id).innerHTML = document.querySelector(temp).textContent
+
+
   
 })
 
