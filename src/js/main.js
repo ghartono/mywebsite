@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
   var template = pathname.substr(1)
   var id = "[id=content]"
   var node = findNode(id)
-  renderContent(temp)
-  /*
+  //renderContent(temp)
+  
   if (template === "")
     template = "home"
 
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     document.querySelector(id).innerHTML = document.querySelector('[data-template=error404-page]').innerHTML
   else
     document.querySelector(id).innerHTML = document.querySelector(temp).innerHTML
-  */
+  
 
 })
 
