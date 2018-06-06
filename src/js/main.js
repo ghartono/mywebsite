@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   else
     document.querySelector(id).innerHTML = document.querySelector(temp).innerHTML
   
-
 })
 
 function renderContent (template) {
