@@ -1,19 +1,19 @@
 {
-  "name": "portfolio",
+  "name": "gio-web",
   "version": "1.0.0",
-  "description": "Gionaldo Hartono's portfolio website.",
-  "main": "app.js",
+  "description": "Gionaldo Hartono's website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./scripts/serve",
+    "test": "echo \"Not implemented.\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghartono/portfolio.git"
+    "url": "https://github.com/monstercat/ghartono.git"
   },
   "author": "ghartono",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ghartono/portfolio/issues"
+  "dependencies": {
+    "declare": "git+https://github.com/monstercat/declare.git",
+    "web-build": "git+https://github.com/monstercat/web-build.git"
   },
-  "homepage": "https://github.com/ghartono/portfolio#readme"
 }
