@@ -15,5 +15,5 @@
   "dependencies": {
     "declare": "git+https://github.com/monstercat/declare.git",
     "web-build": "git+https://github.com/monstercat/web-build.git"
-  },
+  }
 }
